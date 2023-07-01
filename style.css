@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+img {
+    width: 150px;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: bold;
+}
