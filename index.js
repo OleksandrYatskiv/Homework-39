@@ -1,10 +1,10 @@
-let images = document.querySelectorAll('img');
-let wrapper = document.querySelector('.wrapper');
+const images = document.querySelectorAll('img');
+const wrapper = document.querySelector('.wrapper');
 
 images.forEach((img) => {
   let counter = 0;
-  let imgContainer = document.createElement('div');
-  let span = document.createElement('span');
+  const imgContainer = document.createElement('div');
+  const span = document.createElement('span');
 
   img.addEventListener('click', () => {
     counter++;
